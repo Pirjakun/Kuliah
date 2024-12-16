@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1732726176 source:d:\kuliahgena\smt 3\struktur data\tugas\tubes\main.cpp
+	"tubes.h"
+
+1732890407 source:d:\kuliahgena\smt 3\struktur data\tugas\tubes\tubes.cpp
+	"tubes.h"
+
+1732709982 d:\kuliahgena\smt 3\struktur data\tugas\tubes\tubes.h
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+
+1732726176 source:d:\kuliahgena\per_tubes_an\tubes std\tubes\main.cpp
+	"tubes.h"
+
+1732709982 d:\kuliahgena\per_tubes_an\tubes std\tubes\tubes.h
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+
+1734252351 source:d:\kuliahgena\per_tubes_an\tubes std\tubes\tubes.cpp
+	"tubes.h"
+
+1732726176 source:d:\kuliah\smst 3\std\tubes\tubes tahap final_kelompok 7\tubes\main.cpp
+	"tubes.h"
+
+1732709982 d:\kuliah\smst 3\std\tubes\tubes tahap final_kelompok 7\tubes\tubes.h
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+
+1734252351 source:d:\kuliah\smst 3\std\tubes\tubes tahap final_kelompok 7\tubes\tubes.cpp
+	"tubes.h"
+

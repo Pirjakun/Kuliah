@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1734455605 source:d:\kuliah\smst 3\std\tp\asessment\main.cpp
+	"edge.h"
+
+1734455326 d:\kuliah\smst 3\std\tp\asessment\edge.h
+	<iostream>
+	<string>
+
+1734455439 source:d:\kuliah\smst 3\std\tp\asessment\edge.cpp
+	"edge.h"
+

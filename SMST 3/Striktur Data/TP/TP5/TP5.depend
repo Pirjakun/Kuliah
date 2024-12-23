@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1728846676 source:d:\kuliah\smst 3\std\tp\tp5\main.cpp
+	<iostream>
+	"header.h"
+
+1728845747 d:\kuliah\smst 3\std\tp\tp5\list.h
+	<iostream>
+
+1728846148 source:d:\kuliah\smst 3\std\tp\tp5\list.cpp
+	<iostream>
+	"list.h"
+
+1728846161 d:\kuliah\smst 3\std\tp\tp5\header.h
+	<iostream>
+

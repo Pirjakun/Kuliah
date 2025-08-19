@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1755567133 source:d:\kuliah\smst 3\std\bljr\asprak2\soal 4\sola 4\dll.cpp
+	"dll.h"
+
+1755567139 d:\kuliah\smst 3\std\bljr\asprak2\soal 4\sola 4\dll.h
+	<iostream>
+
+1755567308 source:d:\kuliah\smst 3\std\bljr\asprak2\soal 4\sola 4\main.cpp
+	"dll.h"
+

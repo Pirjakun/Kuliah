@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP03 - Profil Diri</title>
+</head>
+<body>
+    <!-- Tag <div> digunakan sebagai wadah utama (container) untuk mengelompokkan seluruh isi halaman -->
+    <div id="container">
+
+        <!-- Judul utama halaman -->
+        <h1>Profil Pribadi</h1>
+
+        <!-- Tag <table> digunakan untuk menampilkan data dalam bentuk tabel -->
+        <table border="0">
+            <tr>
+                <!-- Tag <th> digunakan untuk membuat header kolom tabel -->
+                <th>Foto Profil</th>
+                <th>Video Perkenalan</th>
+            </tr>
+            <tr>
+                <!-- Tag <td> digunakan untuk membuat sel data di dalam tabel -->
+                <td>
+                    <!-- Tag <img> digunakan untuk menampilkan gambar -->
+                    <img src="foto.jpg" alt="Foto Profil" width="150">
+                </td>
+                <td>
+                    <!-- Tag <video> digunakan untuk menampilkan video perkenalan -->
+                    <video width="320" height="240" controls>
+                        <source src="Perkenalan.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Bagian tentang diri -->
+        <div id="tentang">
+            <h2>Tentang Saya</h2>
+            <!-- Tag <p> digunakan untuk membuat paragraf -->
+            <p>Halo! Nama saya Arie Farchan Fyrzatullah. Saya Mahasiswa S1 Teknologi Informasi yang mempunyai minat besar pada bidang CyberSecurity.</p>
+        </div>
+
+        <!-- Bagian keterampilan -->
+        <div id="keterampilan">
+            <h2>Keterampilan</h2>
+            <table border="0">
+                <tr>
+                    <th>Keterampilan</th>
+                    <th>Tingkat</th>
+                </tr>
+                <tr>
+                    <td>Scripting</td>
+                    <td>Noob</td>
+                </tr>
+                <tr>
+                    <td>Pentest</td>
+                    <td>Noob</td>
+                </tr>
+                <tr>
+                    <td>CTF</td>
+                    <td>Script Kiddie</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Bagian form kontak -->
+        <div id="kontak">
+            <h2>Hubungi Saya</h2>
+
+            <!-- Tag <form> digunakan untuk membuat form input data -->
+            <form>
+                <!-- Tag <input> digunakan untuk menerima masukan teks -->
+                Nama: <input type="text" name="nama"><br/>
+                Email: <input type="email" name="email"><br/>
+
+                <!-- Tag <textarea> digunakan untuk input teks yang panjang seperti pesan -->
+                Pesan:<br>
+                <textarea name="pesan" rows="3" cols="20"></textarea><br><br>
+
+                <!-- Tag <button> digunakan untuk membuat tombol kirim -->
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+
+        <!-- Bagian media sosial -->
+        <div id="media-sosial">
+            <h3>Media Sosial:</h3>
+
+            <!-- Tabel kecil untuk menata link media sosial -->
+            <table border="0">
+                <tr>
+                    <!-- Tag <a> (anchor) digunakan untuk membuat hyperlink -->
+                    <td><a href="https://www.linkedin.com/in/fyrzatullah99/">LinkedIn</a></td>
+                    <td>|</td>
+                    <td><a href="https://github.com/Pirjakun">GitHub</a></td>
+                    <td>|</td>
+                    <td><a href="https://www.instagram.com/_pirjskuy/">Instagram</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

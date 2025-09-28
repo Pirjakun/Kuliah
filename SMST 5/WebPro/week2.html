@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 2</title>
+</head>
+<body>
+    <form>
+        First name: <br />
+        <input type="text" name="firstname" placeholder="isi nama" maxlength="12" size="20" required/><br />
+        Last name: <br />
+        <input type="text" name="lastname" value="sumanto"><br /><br />
+
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea> <br /> <br />
+
+        <input type="date" name="bday" min="2025-09-23" max="2025-09-25"> <br /> <br />
+        
+        <input type="radio" name="gender" value="male" checked /> Male <br />
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <input type="radio" name="gender" value="Attack Helicopter" /> Attack Helicopter <br /> <br />
+
+        Favorite color: <br />
+        <input type="text" list="characters" id="char" name="favcolor" placeholder="Choose your character" required /> 
+
+        <datalist id="characters">
+            <option value="SpooderMan">
+            <option value="IronMan">
+            <option value="Hulk">
+            <option value="Thor">
+        </datalist> <br /> <br />
+
+        i would like to receive:
+        <input type="number" name="quantity" min="1" max="5"/> copies of The HTM5 Herald <br /> <br />
+
+        <input type="submit" value="Submit"> <br /> <br />
+
+
+
+    </form>
+</body>
+</html>

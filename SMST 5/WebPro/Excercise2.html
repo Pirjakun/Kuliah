@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excercise2</title>
+<body>
+    <h1>Data Mahasiswa</h1>
+    <form>
+        <table cellpadding="5" cellspacing="0">
+            <tr>
+                <td>
+                    NIM: 
+                </td>
+                <td>
+                    <input type ="text" name="nim" size="20" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                Nama: 
+                </td>
+                <td>
+                    <input type ="text" name="nama" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tgl Lahir (dd-mm-yyyy): 
+                </td>
+                <td>
+                    <input type="date" name="tgllahir" min="1990-01-01" max="2024-12-31" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jenis Kelamin: 
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="Laki-laki"/> Laki-laki
+                    <input type="radio" name="gender" value="Perempuan"/> Perempuan
+                </td>
+            </tr>
+                <td>
+                    Alamat di Bandung: 
+                </td>
+                <td>
+                    <textarea name="alamat" rows="5" cols="30" placeholder="isi alamat lengkap" required></textarea>
+                </td>
+            <tr>
+            <tr>
+                <td>
+                    Tinggal di :
+                </td>
+                <td>
+                    <select name="alamat" id="address" required>
+                        <option>--pilih--</option>
+                        <option>Kost/Kontrakan</option>
+                        <option>Rumah Saudara</option>
+                        <option>Rumah Orang Tua</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pilih 2 Hobi yang paling disukai :</td>
+                <td>
+                   <input type="checkbox" name="data[]" />Science <br />
+                   <input type="checkbox" name="data[]" />Technology <br />
+                   <input type="checkbox" name="data[]" />Art <br />
+                   <input type="checkbox" name="data[]" />Sport <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="submit" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

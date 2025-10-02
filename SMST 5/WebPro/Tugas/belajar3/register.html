@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <h2 align="center">FORMULIR REGISTRASI PRAKTIKAN</h2>
+    <form>
+        <table align="center">
+            <tr>
+                <td><b>NIM</b></td>
+                <td align="center">:</td>
+                <td><input type="text" name="nim" required></td>
+            </tr>
+            <tr>
+                <td><b>Username</b></td>
+                <td align="center">:</td>
+                <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td align="center">:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><b>Password</b></td>
+                <td align="center">:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin</b></td>
+                <td align="center">:</td>
+                <td>
+                    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><b>Minat</b></td>
+                <td align="center">:</td>
+                <td>
+                    <input type="checkbox" name="minat" value="Renang"> Renang <br>
+                    <input type="checkbox" name="minat" value="Bersepeda"> Bersepeda <br>
+                    <input type="checkbox" name="minat" value="Memancing"> Memancing
+                </td>
+            </tr>
+            <tr>
+                <td><b>Jenjang Pendidikan</b></td>
+                <td align="center">:</td>
+                <td>
+                    <select name="pendidikan">
+                        <option>----Pilih----</option>
+                        <option value="SMA">SMA</option>
+                        <option value="D3">D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Upload Foto</b></td>
+                <td align="center">:</td>
+                <td><input type="file" name="foto" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td><b>Harapan</b></td>
+                <td align="center">:</td>
+                <td><textarea name="harapan" rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <button type="reset">Reset</button>
+                    <a href="dashboard.html">
+                        <button type="button">Submit</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p align="center">
+        Sudah punya akun? <a href="login.html">Login di sini</a>
+    </p>
+</body>
+</html>

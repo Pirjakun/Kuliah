@@ -1,0 +1,7 @@
+belajar :
+
+1. Object dianggap bisa dihapus ketika sudah tidak direferensikan lagi oleh variabel mana pun.
+2. Dua reference type: Class dan Array.
+3. Tiga operator di Java: Aritmatika, Relasional, Logika.
+4. Dua primitive type: int, double.
+5. Primitive type menyimpan nilai langsung, sedangkan reference type menyimpan alamat (referensi) objek.

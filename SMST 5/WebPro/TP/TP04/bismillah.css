@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 40px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+.Logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(64, 64, 65);
+}
+
+.home-section {
+    height: 350px;
+    width: 95%;
+    margin: 20px auto;
+    background-image: url('bgBox.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px dotted #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;          
+    color: white;
+}
+.home-content {
+    text-align: left;
+    max-width: 500px;
+}
+
+.section-title { 
+    margin-top: 40px; 
+    margin-left: 40px; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+.home-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white; 
+}
+
+.home-content h2{
+    font-size: 24px;
+    color: rgb(174,174,174);
+}
+.home-content p {
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.home-content h2 {
+    margin-top: 80px; 
+    margin-left: 40px;
+    font-weight: bold;
+}
+.textColl{
+    color: rgb(238,238,238);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.collections {
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.collections h2 {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .collections{
+        padding: 20px;
+    }
+
+    .home-section {
+        height: 250px;
+        padding: 20px;
+    }
+    .home-content h1 {
+        font-size: 14px;
+    }
+    .nav-links a {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}

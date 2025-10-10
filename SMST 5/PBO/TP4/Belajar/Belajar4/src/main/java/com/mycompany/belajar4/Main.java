@@ -1,13 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package com.mycompany.belajar4;
-/**
- *
- * @author Fyrza
- */
-
 import java.util.Scanner;
 
 public class Main {
@@ -25,19 +15,24 @@ public class Main {
         mhs2.setKelas("47", 12);
         mhs3.setKelas("47", 5);
 
-        // Tanjiro
         mhs1.tambahMK(new AmbilMK(pbo, "A", "21/22"));
+        mhs1.tambahMK(new AmbilMK(kalkulus, "A", "09/10"));
         mhs1.tambahMK(new AmbilMK(dka, "A", "21/22"));
         mhs1.tambahMK(new AmbilMK(kwu, "A", "21/22"));
 
-        // Spongebob
+        mhs2.tambahMK(new AmbilMK(pbo, "A", "21/22"));
+        mhs2.tambahMK(new AmbilMK(kalkulus, "A", "09/10"));
+        mhs2.tambahMK(new AmbilMK(dka, "A", "09/10"));
+        mhs2.tambahMK(new AmbilMK(kwu, "A", "21/22"));
+        mhs2.tambahMK(new AmbilMK(pbo, "B", "21/22"));
         mhs2.tambahMK(new AmbilMK(kalkulus, "A", "19/20"));
         mhs2.tambahMK(new AmbilMK(dka, "BC", "19/20"));
-        mhs2.tambahMK(new AmbilMK(pbo, "A", "21/22")); // hanya 1 MK di 21/22
+        mhs2.tambahMK(new AmbilMK(kwu, "AB", "21/22"));
 
-        // Naruto
+        mhs3.tambahMK(new AmbilMK(pbo, "AB", "22/23"));
         mhs3.tambahMK(new AmbilMK(kalkulus, "D", "21/22"));
         mhs3.tambahMK(new AmbilMK(dka, "B", "21/22"));
+        mhs3.tambahMK(new AmbilMK(kwu, "C", "22/23"));
 
         Mahasiswa[] daftar = new Mahasiswa[] { mhs1, mhs2, mhs3 };
 
@@ -59,5 +54,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println("Program selesai. Semoga selalu diberi kemudahan^^");
+        sc.close();
     }
 }

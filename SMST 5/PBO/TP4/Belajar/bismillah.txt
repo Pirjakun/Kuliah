@@ -1,0 +1,15 @@
+1. Empat access modifier dalam Java (urutan paling ketat → longgar):
+
+private, default, protected, public
+
+2. Constructor & 2 aturannya:
+
+Method khusus untuk inisialisasi objek. Nama sama dengan class dan Tidak punya return type.
+
+3. Jika constructor dideklarasikan tapi tidak dipanggil:
+
+Tidak dijalankan. dan Objek tidak terinisialisasi oleh constructor itu (Java pakai default constructor jika ada).
+
+4. Dua kegunaan enkapsulasi:
+
+Menyembunyikan detail implementasi dan Melindungi dan mengamankan data.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>225A1314_Soal1</title>
+    <link type="text/css" rel="stylesheet" href="style1.css">
+</head>
+<body onload="isiData()">
+    <form>
+        <div class="form-group">
+            <label>Nama</label>
+            <input type="text" class="form-control" id="nama" readonly>
+        </div>
+        <div class="form-group">
+            <label>NIM</label>
+            <input type="text" class="form-control" id="nim" readonly>
+        </div>
+    </form>
+    <script type="text/javascript">
+        function isiData() {
+            let nama = prompt("Masukkan nama Anda:");
+            let nim = prompt("Masukkan NIM Anda:");
+            document.getElementById("nama").value = nama;
+            document.getElementById("nim").value = nim;
+        }
+    </script>
+</body>
+</html>

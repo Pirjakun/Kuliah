@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Panduan Interaktif Perawatan Tanaman</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <h1>Panduan Interaktif Perawatan Tanaman</h1>
+
+  <h2>1. Tips Perawatan</h2>
+  <button id="toggleTips">Tampilkan Tips</button>
+  <div id="tips" style="display:none;">
+    <p>Siram tanaman Anda secara teratur, terutama saat musim kering.</p>
+    <p>Pastikan tanaman mendapat cukup sinar matahari.</p>
+    <p>Beri pupuk setiap beberapa minggu selama pertumbuhan.</p>
+  </div>
+
+  <h2>2. Tanaman Virtual</h2>
+  <p>Poin Perawatan: <span id="poinPerawatan">0</span></p>
+
+  <button id="siramTanaman">Siram Tanaman</button>
+  <button id="beriPupuk">Beri Pupuk</button>
+  <button id="pangkasTanaman">Pangkas Tanaman</button>
+
+  <div id="pertumbuhanTanaman" 
+       style="width:100px; height:100px; background:green; border-radius:50%; margin:30px auto;">
+  </div>
+
+  <script src="soal2.js"></script>
+</body>
+</html>

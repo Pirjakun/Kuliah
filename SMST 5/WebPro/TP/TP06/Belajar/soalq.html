@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <h1>Javascript Dialog Alert</h1>
+  <button id="klikSaya">Klik Saya</button>
+  <p id="output">Kamu bukan Mahasiswa Telkom !!!</p>
+
+  <script>
+    document.getElementById("klikSaya").addEventListener("click", function() {
+      let konfirmasi = confirm("Tekan OK jika kamu adalah Mahasiswa Telkom?");
+      if (konfirmasi) {
+        let nama = prompt("Siapa nama kamu?");
+        let nim = prompt("Tuliskan NIM kamu?");
+        document.getElementById("output").innerHTML = "Selamat Datang<br>" + nama + ", " + nim;
+      } else {
+        document.getElementById("output").innerText = "Kamu bukan Mahasiswa Telkom !!!";
+      }
+    });
+  </script>
+</body>
+</html>

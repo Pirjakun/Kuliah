@@ -1,5 +1,14 @@
-1. JavaScript adalah bahasa pemrograman untuk membuat halaman web interaktif dan dinamis.
-2. jQuery adalah library JavaScript yang mempermudah penulisan kode dengan sintaks lebih singkat dan mudah.
-3. Elemen dengan id diambil pakai `document.getElementById("id")` dan listener-nya pakai `addEventListener("event", fungsi)`. Contoh:
-   `document.getElementById("btn").addEventListener("click", fungsiKlik)`
-4. JavaScript digunakan untuk logika dan interaktivitas web, sedangkan jQuery digunakan untuk mempermudah manipulasi elemen dan event di JavaScript.
+1. Apa yang paling membedakan antara overloading dan overriding?
+   Overloading terjadi dalam kelas yang sama dengan parameter berbeda, sedangkan overriding terjadi pada kelas turunan untuk mengubah perilaku method induk.
+
+2. Untuk apa keyword super?
+   Keyword super digunakan untuk mengakses atribut atau method milik superclass dari subclass.
+
+3. Modifier final jika digunakan pada deklarasi kelas akan menyebabkan apa?
+   Modifier final pada kelas menyebabkan kelas tidak bisa diwarisi.
+
+4. Modifier final jika digunakan pada deklarasi method akan menyebabkan apa?
+   Modifier final pada method menyebabkan method tidak bisa dioverride oleh subclass.
+
+5. Modifier final jika digunakan pada deklarasi variabel akan menyebabkan apa?
+   Modifier final pada variabel menyebabkan nilai variabel tidak bisa diubah setelah diinisialisasi.

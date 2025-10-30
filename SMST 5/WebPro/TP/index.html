@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COTS Modul 7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row min-vh-100">
+    <aside class="col-md-3 col-lg-2 p-3 bg-white sidebar shadow-sm">
+      <div class="text-center mb-4">
+        <div class="profile-circle mb-2"></div>
+        <p class="fw-semibold mb-0">103032330094</p>
+        <small class="text-muted">ARIE FARCHAN FYRZA</small>
+      </div>
+      <p class="text-danger fw-bold small">Menu</p>
+      <a class="nav-link" href="#">Beranda</a>
+      <p class="text-danger fw-bold small mt-3">Menu Dosen Wali</p>
+      <a class="nav-link active" href="#">List Registrasi</a>
+      <p class="text-danger fw-bold small mt-3">Menu Admin</p>
+      <a class="nav-link" href="#">List Mahasiswa</a>
+      <a class="nav-link" href="#">Jadwal Registrasi</a>
+    </aside>
+
+    <main class="col-md-9 col-lg-10 p-4 bg-light">
+      <section class="bg-success bg-opacity-25 p-3 rounded mb-4 text-success text-center shadow-sm">
+        <h6>Jadwal Registrasi prodi S1 Teknologi Informasi</h6>
+        <table class="table table-bordered align-middle text-success table-sm mt-3">
+          <thead class="table-success fw-bold">
+            <tr><th>Angkatan</th><th>Mulai Regis</th><th>Akhir Regis</th></tr>
+          </thead>
+          <tbody class="table-success">
+            <tr><td>2324</td><td>2025-09-02 08:00</td><td>2025-09-04 16:00</td></tr>
+            <tr><td>2425</td><td>2025-09-03 08:00</td><td>2025-09-06 14:00</td></tr>
+            <tr><td>2526</td><td>2025-09-06 08:00</td><td>2025-09-06 23:00</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="bg-white p-3 rounded shadow-sm">
+        <div class="alert alert-warning text-center py-2 mb-3">
+          Silahkan klik <b>Generate Filter</b> jika ingin mengubah data yang ditampilkan
+        </div>
+        <div class="d-flex flex-wrap gap-2 align-items-center mb-3">
+          <span class="fw-bold">Filter</span>
+          <select class="form-select w-auto"><option>Pilih Kelas</option></select>
+          <select class="form-select w-auto"><option>Status Registrasi</option></select>
+          <select class="form-select w-auto"><option>Status Mahasiswa</option></select>
+          <button class="btn btn-success">Generate Filter</button>
+        </div>
+
+        <table class="table table-bordered align-middle text-center">
+          <thead class="table-danger text-white">
+            <tr>
+              <th>Nama / NIM</th><th>Kelas</th><th>Status Registrasi</th>
+              <th>Status Mahasiswa</th><th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ALFI HADI MAULANA<br><small>1321010027</small></td><td>IT-45-02</td>
+              <td><span class="badge bg-info text-dark">KRS DISETUJUI</span></td>
+              <td><span class="badge bg-secondary">MAHASISWA</span></td>
+              <td><button class="btn btn-sm btn-primary">Pratinjau</button>
+                  <button class="btn btn-sm btn-success">Registrasi</button></td>
+            </tr>
+            <tr>
+              <td>MUHAMMAD ROGHIB<br><small>1321010137</small></td><td>IT-45-02</td>
+              <td><span class="badge bg-info text-dark">KRS DISETUJUI</span></td>
+              <td><span class="badge bg-secondary">MAHASISWA</span></td>
+              <td><button class="btn btn-sm btn-primary">Pratinjau</button>
+                  <button class="btn btn-sm btn-success">Registrasi</button></td>
+            </tr>
+            <tr>
+              <td>FAISAL MAULANA<br><small>1321010146</small></td><td>IT-45-02</td>
+              <td><span class="badge bg-info text-dark">KRS DISETUJUI</span></td>
+              <td><span class="badge bg-secondary">MAHASISWA</span></td>
+              <td><button class="btn btn-sm btn-primary">Pratinjau</button>
+                  <button class="btn btn-sm btn-success">Registrasi</button></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <small>Menampilkan 1–3 dari 50 data</small>
+          <ul class="pagination mb-0">
+            <li class="page-item active"><a class="page-link bg-danger border-danger">1</a></li>
+            <li class="page-item"><a class="page-link text-danger">2</a></li>
+            <li class="page-item"><a class="page-link text-danger">3</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+</body>
+</html>

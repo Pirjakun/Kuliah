@@ -1,13 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.jurnal7;
-
-/**
- *
- * @author Fyrza
- */
 public class PrismaSegitiga extends Bentuk implements BangunRuang {
     private int alas;
     private int tinggi;
@@ -38,4 +28,5 @@ public class PrismaSegitiga extends Bentuk implements BangunRuang {
         double luasAlas = 0.5 * alas * tinggi;
         return luasAlas * tinggiPrisma;
     }
+
 }

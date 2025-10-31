@@ -1,0 +1,14 @@
+Abstract boleh ada constructor untuk inisialisasi data.
+
+
+abstract bisa punya implementasi & atribut, sedangkan interface hanya deklarasi.
+
+
+sama-sama buat abstraksi tanpa implementasi konkret.
+
+
+Bisa implement beberapa interface sekaligus dengan cara pisahkan dengan koma.
+
+
+Ya, abstract class bisa mengimplementasikan interface, tapi tidak wajib mengimplementasikan semua metodenya.
+

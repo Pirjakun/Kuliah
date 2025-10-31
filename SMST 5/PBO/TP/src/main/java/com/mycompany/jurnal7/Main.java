@@ -1,14 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package com.mycompany.jurnal7;
-
-/**
- *
- * @author Fyrza
- */
-
 public class Main {
     public static void main(String[] args) {
         Kubus k = new Kubus("Kiub", 5);

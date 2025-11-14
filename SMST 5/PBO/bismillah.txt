@@ -1,16 +1,15 @@
-Abstract boleh ada constructor untuk inisialisasi data.
+Implicit Casting (Widening Conversion), Explicit Casting (Narrowing Conversion)
 
+Upcasting, Downcasting
 
-Abstract class bisa punya method dengan implementasi, interface hanya deklarasi.
+Implicit casting adalah konversi otomatis yang dilakukan Java ketika mengubah tipe data dari ukuran kecil ke ukuran lebih besar, atau dari subclass ke superclass.
+Tidak membutuhkan tanda cast ( ).
+Contoh:
+int a = 10;
+double b = a;   // implicit
 
-Abstract class bisa punya atribut, interface tidak bisa.
-
-
-sama-sama buat abstraksi tanpa implementasi konkret.
-
-
-Bisa implement beberapa interface sekaligus dengan cara pisahkan dengan koma.
-
-
-Ya, abstract class bisa mengimplementasikan interface, tapi tidak wajib mengimplementasikan semua metodenya.
-
+Explicit casting adalah konversi yang harus ditulis secara manual, biasanya dari tipe lebih besar ke tipe lebih kecil, atau dari superclass ke subclass.
+Harus memakai tanda ( ).
+Contoh:
+double a = 10.5;
+int b = (int) a;   // explicit

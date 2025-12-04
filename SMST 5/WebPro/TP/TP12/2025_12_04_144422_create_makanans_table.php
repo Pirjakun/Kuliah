@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('makanans', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_makanan'); // Sesuai soal
-            $table->integer('harga');       // Harga angka
-            $table->string('deskripsi');    // Deskripsi string
-            $table->integer('stock');       // Stock integer
+            $table->string('nama_makanan'); 
+            $table->integer('harga');
+            $table->string('deskripsi');
+            $table->integer('stock');r
             $table->timestamps();
         });
     }

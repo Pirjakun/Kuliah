@@ -1,0 +1,19 @@
+CREATE TABLE barang (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    jumlah INT NOT NULL,
+    harga DECIMAL(15, 2) NOT NULL  
+);
+
+INSERT INTO barang (nama, jumlah, harga)
+VALUES 
+    ('Laptop', 10, 7500000),
+    ('Mouse', 50, 150000),
+    ('Keyboard', 30, 250000),
+    ('Monitor', 15, 3000000),
+    ('Smartphone', 20, 5000000),
+    ('Tablet', 25, 1500000),
+    ('Printer', 10, 1500000),
+    ('Earphone', 40, 300000),
+    ('Charger', 100, 75000),
+    ('Webcam', 5, 500000);
